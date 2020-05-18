@@ -90,9 +90,9 @@ model = tflearn.DNN(net)
 
 #Don't train model if we already have a model that exists
 try:
-    # model.load("model.tflearn")
+    model.load("model.tflearn")
     # Uncomment this to retrain your model and comment out the line above
-    me.py 
+    # me.py 
 except:
     #Feeding our model data
     #n_epoch meanss the number of times we'll have our model look at the data
